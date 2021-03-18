@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node: [ '12.16.1', '12.16.2', '15.2.0' ]
+        node: [ '15.2.0', '15.11.0' ]
 
     name: Node ${{ matrix.node }}
     steps:
